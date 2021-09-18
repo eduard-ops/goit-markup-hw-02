@@ -1,0 +1,246 @@
+/* цвет основного текста прозрачность 100 %#212121 */
+/* вторичный цвет #757575 */
+
+/* акцент#2196F3 */
+
+/* color: rgba(255, 255, 255, 0.6); это футер */
+
+/* вторичный цвет фона color: F5F4FA */
+/* основной цвет фона #FFFFFF */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --rare-color: #ffffff;
+}
+
+body {
+  background-color: var(--rare-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.header-content {
+  background: var(--rare-color);
+}
+
+.header-content .link {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo header  */
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-header {
+  color: #000000;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Mail and phone */
+.mail-header {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.phone-header {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.mail-header:hover,
+.mail-header:focus {
+  color: var(--accent-color);
+}
+
+.phone-header:hover,
+.phone-header:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--rare-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Hero button */
+
+.button-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--rare-color);
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/* Hidden Portfolio and particular */
+.hidden {
+  display: none;
+}
+
+/* Particular  */
+
+.particular-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.particular-list .text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Command */
+
+.command {
+  background-color: #f5f4fa;
+}
+
+.command-list .title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.command-list .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*  Footer */
+.footer-content {
+  background-color: #2f303a;
+}
+
+/* Logo Footer */
+.logo-footer {
+  color: var(--rare-color);
+}
+
+/* Footer Address */
+.footer-list {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+
+.location {
+  color: var(--rare-color);
+}
+
+.mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* POTFOLIO Buttons  */
+
+.button-filter {
+  font-family: inherit;
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/*  Наши работы  */
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
