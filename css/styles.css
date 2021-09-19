@@ -65,28 +65,17 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* Mail and phone */
-.mail-header {
+/* Contacts */
+
+.contacts .link {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.phone-header {
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.mail-header:hover,
-.mail-header:focus {
-  color: var(--accent-color);
-}
-
-.phone-header:hover,
-.phone-header:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 /* Hero */
