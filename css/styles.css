@@ -21,10 +21,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header-content {
-  background: var(--rare-color);
-}
-
 .header-content .link {
   text-decoration: none;
   letter-spacing: 0.02em;
