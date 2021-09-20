@@ -16,29 +16,37 @@
 
   <body>
     <!-- Шапка страницы -->
-    <header class="header-content">
+    <header>
       <nav>
         <a href="#" class="logo">
           Web<span class="logo-header">Studio</span>
         </a>
 
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link current"> Студия </a></li>
           <li>
-            <a href="./portfolio.html" class="link"> Портфолио </a>
+            <a href="./index.html" class="site-nav-link link current">
+              Студия
+            </a>
           </li>
-          <li><a href="" class="link"> Контакты </a></li>
+          <li>
+            <a href="./portfolio.html" class="site-nav-link link">
+              Портфолио
+            </a>
+          </li>
+          <li><a href="" class="site-nav-link link"> Контакты </a></li>
         </ul>
       </nav>
-      <ul class="contacts list">
+      <ul class="contacts-header list">
         <li>
-          <a href="mailto:info@devstudio.com" class="link"
+          <a href="mailto:info@devstudio.com" class="contacts-link link"
             >info@devstudio.com</a
           >
         </li>
 
         <li>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="contacts-link link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -53,32 +61,32 @@
       <!-- Особенности -->
       <section>
         <h2 class="hidden">Особенности</h2>
-        <ul class="particular-list list">
+        <ul class="features list">
           <li>
-            <h3 class="title">Внимание к деталям</h3>
-            <p class="text">
+            <h3 class="features-title">Внимание к деталям</h3>
+            <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
 
           <li>
-            <h3 class="title">Пунктуальность</h3>
-            <p class="text">
+            <h3 class="features-title">Пунктуальность</h3>
+            <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3 class="title">Планирование</h3>
-            <p class="text">
+            <h3 class="features-title">Планирование</h3>
+            <p class="features-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3 class="title">Современные технологии</h3>
-            <p class="text">
+            <h3 class="features-title">Современные технологии</h3>
+            <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -86,9 +94,9 @@
         </ul>
       </section>
 
-      <section class="section">
+      <section>
         <!--  Специализация -->
-        <h2 class="section-title">Чем мы занимаемся</h2>
+        <h2 class="works-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -117,9 +125,9 @@
         </ul>
       </section>
       <!-- Команда -->
-      <section class="command">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="command-list list">
+      <section class="command-section">
+        <h2 class="command-title">Наша команда</h2>
+        <ul class="command list">
           <li>
             <img
               src="./images/imgigor.jpg"
@@ -127,8 +135,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Игорь Демьяненко</h3>
-            <p lang="en" class="text">Product Designer</p>
+            <h3 class="command-subtitle">Игорь Демьяненко</h3>
+            <p lang="en" class="command-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -137,8 +145,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Ольга Репина</h3>
-            <p lang="en" class="text">Frontend Developer</p>
+            <h3 class="command-subtitle">Ольга Репина</h3>
+            <p lang="en" class="command-text">Frontend Developer</p>
           </li>
 
           <li>
@@ -148,8 +156,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Николай Тарасов</h3>
-            <p lang="en" class="text">Marketing</p>
+            <h3 class="command-subtitle">Николай Тарасов</h3>
+            <p lang="en" class="command-text">Marketing</p>
           </li>
           <li>
             <img
@@ -158,35 +166,35 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Михаил Ермаков</h3>
-            <p lang="en" class="text">UI Designer</p>
+            <h3 class="command-subtitle">Михаил Ермаков</h3>
+            <p lang="en" class="command-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Футер -->
-    <footer class="footer-content">
-      <div>
+    <footer>
+      <div class="footer-content">
         <a href="#" class="logo link">
           Web<span class="logo-footer">Studio</span>
         </a>
         <address>
-          <ul class="footer-list">
+          <ul class="contacts-footer">
             <li>
               <a
                 href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
-                class="location link"
+                class="location-link contacts-link link"
                 >г. Киев, пр-т Леси Украинки, 26
               </a>
             </li>
 
             <li>
-              <a href="mailto:info@example.com" class="mail-footer link"
+              <a href="mailto:info@example.com" class="contacts-link link"
                 >info@example.com
               </a>
             </li>
             <li>
-              <a href="tel:+380991111111" class="phone-footer link">
+              <a href="tel:+380991111111" class="contacts-link link">
                 +38 099 111 11 11
               </a>
             </li>
